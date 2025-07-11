@@ -49,9 +49,26 @@
             android:isRepeatable="true" />
     </Row>
 
-    <!-- Fila 4 (barra espaciadora) -->
+    <!-- Fila 4 (Comment + Space + Enter) -->
     <Row>
-        <Key android:codes="32" android:keyLabel="Space" android:keyWidth="50%p" />
+        <Key
+            android:codes="1001"
+            android:keyLabel="Ctrl+/"
+            android:keyWidth="20%p"
+            android:isRepeatable="false" />
+
+        <Key
+            android:codes="32"
+            android:keyLabel="Space"
+            android:keyWidth="40%p" />
+
+        <Key
+            android:codes="66"
+            android:keyLabel="Enter"
+            android:keyWidth="20%p"
+            android:isRepeatable="false" />
     </Row>
+
+
 
 </Keyboard>
