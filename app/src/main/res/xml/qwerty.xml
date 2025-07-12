@@ -5,24 +5,34 @@
     android:verticalGap="0px"
     android:keyHeight="60dp">
 
-    <!-- Fila 1 -->
+    <!-- Fila 1: Tab1 a Tab9 -->
     <Row>
-        <Key android:codes="113" android:keyLabel="Q" />
-        <Key android:codes="119" android:keyLabel="W" />
-        <Key android:codes="101" android:keyLabel="E" />
-        <Key android:codes="114" android:keyLabel="R" />
-        <Key android:codes="116" android:keyLabel="T" />
-        <Key android:codes="121" android:keyLabel="Y" />
-        <Key android:codes="117" android:keyLabel="U" />
-        <Key android:codes="105" android:keyLabel="I" />
-        <Key android:codes="111" android:keyLabel="O" />
-        <Key android:codes="112" android:keyLabel="P" />
+        <Key android:codes="1001" android:keyLabel="Tab1" />
+        <Key android:codes="1002" android:keyLabel="Tab2" />
+        <Key android:codes="1003" android:keyLabel="Tab3" />
+        <Key android:codes="1004" android:keyLabel="Tab4" />
+        <Key android:codes="1005" android:keyLabel="Tab5" />
+        <Key android:codes="1006" android:keyLabel="Tab6" />
+        <Key android:codes="1007" android:keyLabel="Tab7" />
+        <Key android:codes="1008" android:keyLabel="Tab8" />
+        <Key android:codes="9"    android:keyLabel="Tab" />
     </Row>
 
-    <!-- Fila 2 -->
+    <!-- Fila 2: Tab10 a Tab19 -->
     <Row>
-        <Key android:codes="9" android:keyLabel="Tab" android:keyWidth="10%p"/>
-        <Key android:codes="97" android:keyLabel="A" />
+        <Key android:codes="1009" android:keyLabel="Tab9" />
+        <Key android:codes="1010" android:keyLabel="Tab10" />
+        <Key android:codes="1011" android:keyLabel="Tab11" />
+        <Key android:codes="1012" android:keyLabel="Tab12" />
+        <Key android:codes="1013" android:keyLabel="Tab13" />
+        <Key android:codes="1014" android:keyLabel="Tab14" />
+        <Key android:codes="1015" android:keyLabel="Tab15" />
+        <Key android:codes="1016" android:keyLabel="Tab16" />
+        <Key android:codes="1017" android:keyLabel="Tab17" />
+    </Row>
+
+    <!-- Fila 3: Letras -->
+    <Row>
         <Key android:codes="115" android:keyLabel="S" />
         <Key android:codes="100" android:keyLabel="D" />
         <Key android:codes="102" android:keyLabel="F" />
@@ -33,13 +43,13 @@
         <Key android:codes="108" android:keyLabel="L" />
     </Row>
 
-    <!-- Fila 3 -->
+    <!-- Fila 4: Más letras y backspace -->
     <Row>
         <Key android:codes="122" android:keyLabel="Z" />
         <Key android:codes="120" android:keyLabel="X" />
-        <Key android:codes="99" android:keyLabel="C" />
+        <Key android:codes="99"  android:keyLabel="C" />
         <Key android:codes="118" android:keyLabel="V" />
-        <Key android:codes="98" android:keyLabel="B" />
+        <Key android:codes="98"  android:keyLabel="B" />
         <Key android:codes="110" android:keyLabel="N" />
         <Key android:codes="109" android:keyLabel="M" />
         <Key
@@ -49,13 +59,17 @@
             android:isRepeatable="true" />
     </Row>
 
-    <!-- Fila 4 (Comment + Space + Enter) -->
+    <!-- Fila 5: Funcionales -->
     <Row>
         <Key
-            android:codes="1001"
-            android:keyLabel="Ctrl+/"
-            android:keyWidth="20%p"
-            android:isRepeatable="false" />
+            android:codes="1018"
+            android:keyLabel="Tab18"
+            android:keyWidth="20%p" />
+
+        <Key
+            android:codes="1019"
+            android:keyLabel="Tab19"
+            android:keyWidth="20%p" />
 
         <Key
             android:codes="32"
@@ -68,7 +82,5 @@
             android:keyWidth="20%p"
             android:isRepeatable="false" />
     </Row>
-
-
 
 </Keyboard>
